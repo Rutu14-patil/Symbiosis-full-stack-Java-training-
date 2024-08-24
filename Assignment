@@ -1,1 +1,10 @@
-
+// program to find the remainder of two numbers without using the modulo operator
+import java.io.*;
+public class remainder{
+    public static int getRemainder(int num,int divisor){
+        return(num - divisor *(num / divisor));
+    }
+    public static void main(String[] args) {
+        System.out.println(getRemainder(100,70));
+    }
+}
